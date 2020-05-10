@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario ejemplo 1 </title>
+</head>
+<body>
+    <h1> Practica de formularios con form</h1>
+    <h2> Action y methodo</h2>
+    
+    <form name="FormularioInicial" action="/signup" method="post">
+        <label id="etiquetaNombre">Nombre </label>
+        <input type="text" id="txtNombre" name="formName" placeholder="su nombre aqui">
+        <br><br>
+        <label for="lbApellidos">Apellidos</label>
+        <input type="text" id="txtApellidos" name="formApellidos" placeholder="sus apellidos aqui">
+        <br><br>
+        <label for="lblEmail">Correo Electronico</label>
+        <input type="email" id="txtEmail" placeholder="introduzca su email">
+        <br><br>
+        <label for="lblObservaciones">Observaciones</label>
+        <br>
+        <textarea name="txtObservaciones" id="txtObservaciones" cols="80" rows="15" placeholder="haga sus comentarios "></textarea>
+        <br>
+        <br>
+        <h3> </h3>
+        <p>Selecciona tu nivel : </p>
+        <input type="radio" name="" id="Alto">
+        <label for="lblAlto">Alto</label>
+        <br>
+        <input type="radio" name="" id="Medio">
+        <label for="lblMedio">Medio</label>
+        <br>
+        <input type="radio" name="" id="Bajo">
+        <label for="lblBajo">Bajo</label>
+        <br>
+        <button type="button">Enviar Datos </button>
+    </form>
+    
+</body>
+</html>
